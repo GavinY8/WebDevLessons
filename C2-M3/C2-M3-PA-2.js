@@ -1,9 +1,9 @@
 // Task 1: Code a Person class
 class Person {
     constructor(name, age, energy) {
-        this.name = "Tom"
-        this.age = 20
-        this.energy = 100
+        this.name = name
+        this.age = age
+        this.energy = energy
     }
     doSomethingFun() {
         this.energy -= 10
@@ -35,7 +35,7 @@ function intern() {
 
 function manager() {
     var manager = new Worker("Alice", 30, 120, 100, 30)
-    manager.doSomethingFun
+    manager.doSomethingFun()
     return manager
 }
 
