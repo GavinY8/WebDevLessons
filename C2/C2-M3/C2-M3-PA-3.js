@@ -15,8 +15,8 @@ bird.canFly = true;
 bird.hasFeathers = true;
 
 function birdCan() {
-    for (const key of Object.keys(bird)) {
-        console.log(key, ":", bird[key])
+    for (const q of Object.keys(bird)) {
+        console.log(q, ":", bird[q])
     }
 }
 birdCan()
