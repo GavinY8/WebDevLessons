@@ -62,10 +62,6 @@ nav {
     height: 150px;
 }
 
-.box + .longbox {
-    margin: 20px;
-}
-
 ul {
   list-style-type: none;
   background-color: #4f4f4f;
